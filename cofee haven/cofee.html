@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Coffee Haven</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <header>
+    <div class="container">
+      <h1>Coffee Haven</h1>
+      <nav>
+        <a href="#home">Home</a>
+        <a href="#menu">Menu</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h2>Your Daily Dose of Freshly Brewed Joy</h2>
+      <p>Relax, recharge, and sip the difference.</p>
+      <button onclick="orderNow()">Order a Cup</button>
+    </div>
+  </section>
+
+  <section id="menu" class="menu-section">
+    <h2>Our Coffee Menu</h2>
+    <div class="menu-grid">
+      <div class="card">
+        <h3>Americano</h3>
+        <p>Hot water & bold espresso</p>
+      </div>
+      <div class="card">
+        <h3>Mocha</h3>
+        <p>Chocolate + espresso + steamed milk</p>
+      </div>
+      <div class="card">
+        <h3>Flat White</h3>
+        <p>Velvety microfoam & espresso</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="about-section">
+    <h2>About Coffee Haven</h2>
+    <p>We're a cozy coffee spot dedicated to handcrafted brews and warm vibes. Whether you need a quick espresso or a quiet corner to read, Coffee Haven is your go-to sanctuary.</p>
+  </section>
+
+  <section id="contact" class="contact-section">
+    <h2>Contact Us</h2>
+    <form>
+      <input type="text" placeholder="Name" required />
+      <input type="email" placeholder="Email" required />
+      <textarea placeholder="Your message..." required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Coffee Haven. Brewed with ❤️.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
